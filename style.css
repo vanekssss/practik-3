@@ -1,0 +1,45 @@
+.buy-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    align-self: flex-end;
+    transform: translate(430px, -80px);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.buy-button:hover {
+    transform: translate(430px, -80px) scale(1.1);
+
+}
+
+
+.product-names {
+    font-size: 28px;
+
+}
+
+.prices {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    top: -350px;
+    right: -7px;
+
+}
+
+.prises {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 40px;
+    right: 77px;
+    font-size: 27px;
+    padding: -9px;
+
+}
